@@ -1,5 +1,5 @@
 import os
 
-
 while True:
-    height, width = os.get_terminal_size()
+    terminal_height, terminal_width = os.get_terminal_size()
+
